@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 2rem;
+}
+/* nav {
+    background-color: #333;
+} */
+nav ul{
+list-style: none;
+padding: 0%;
+margin: 0;
+display: flex;
+}
+nav ul il {
+    margin: 1rem;
+
+}
+nav ul li a {
+    display: block;
+    margin: 0;
+    padding:0 7rem;
+    color: #270252e1;
+
+}
+nav ul li a:hover {
+background-color: #faf6f6;
+padding: 1rem;
+}
+/* .rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+} */
+/* article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(224, 255, 255);
+  margin: 2rem;
+}
+.boxing {
+    display: flex;
+  flex-wrap: wrap;
+} */
+main { 
+    padding: 20px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin:1rem 6rem;
+}
+.product {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(170, 197, 197);
+}
+.product img {
+    width: 150px;
+    height: 150px;
+}
